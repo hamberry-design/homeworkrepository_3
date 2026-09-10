@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+}
+
+body {
+height: 100vh;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 80%;
+    background-color: lightgray;
+    font-family: arial;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 35px;
+    color: #000000;
+    margin-left: 39px;
+}
+
+.links a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 39px;
+    font-family: arial;
+}
+
+.links a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header1 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: arial;
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.imagesindexsnom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: midnightblue;
+}
+
+.snominfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.snominfo ul li {
+    padding-top: 20px;
+}
+
+
+
+.imagesindexquagsire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue;
+}
+
+.quagsireinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.quagsireinfo ul li {
+    padding-top: 20px;
+}
+
+.imagesindexwailord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+.wailordinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.wailordinfo ul li {
+    padding-top: 20px;
+}
+
+.imagesindex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.Pokedescriptions {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: arial;
+    gap: 200px ;
+}
+.Pokedescriptions a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.quagsire {
+    color: steelblue;
+    font-weight: bold;
+}
+
+.wailord {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.snom {
+    color: midnightblue;
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 80%;
+    background-color: lightgray;
+    font-family: arial;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+.footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    margin-top: auto;
+}
